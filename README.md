@@ -44,7 +44,7 @@ sudo systemctl start monitoring.timer
 sudo systemctl status monitoring.timer
 ```
 
-### Проверки 
+## Проверки 
 ### Проверка статуса таймера
 sudo systemctl status monitoring.timer
 
