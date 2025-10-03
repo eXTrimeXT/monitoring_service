@@ -1,3 +1,4 @@
+## Установка
 ### Перемещение 
 ```
 sudo cp monitoring.sh /usr/local/bin/
@@ -39,14 +40,11 @@ sudo systemctl enable monitoring.timer
 sudo systemctl start monitoring.timer
 ```
 
-### Проверяем статус
-```
-sudo systemctl status monitoring.timer
-```
-
 ## Проверки 
 ### Проверка статуса таймера
+```
 sudo systemctl status monitoring.timer
+```
 
 ### Просмотр логов в реальном времени
 
